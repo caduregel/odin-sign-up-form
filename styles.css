@@ -1,6 +1,4 @@
-
-
-*{
+* {
     margin: 0;
 }
 
@@ -8,12 +6,13 @@
 body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafafa;
 }
 
 /* The sidebar logo */
 #side-logo {
     background-image: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: 110%;
+    background-size: 150%;
     width: 30vw;
     height: 100vh;
     color: white;
@@ -23,7 +22,7 @@ body {
 }
 
 #side-logo h1 {
-    
+
     display: flex;
     align-items: center;
     font-family: odinFont;
@@ -47,7 +46,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: left;
 
 }
 
@@ -64,5 +63,54 @@ p {
     flex-direction: column;
     justify-content: center;
     margin: 0px 50px;
-    margin-right: 30vw;
+    margin-right: 30%;
 }
+
+/* Inputs */
+
+
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 5px 6px 3px rgba(0, 0, 0, 0.1); 
+}
+#inputs h2 {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.input-container form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+label {
+    font-size: 17px;
+    font-weight: 600;
+    color: #6e6e6e;
+}
+
+input {
+    font-size: 17px;
+    width: 300px;
+    height: 30px;
+    border: 2px solid #b1b1b1;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 3px solid #555;
+    outline: none;
+}
+
+/* Submit */
+

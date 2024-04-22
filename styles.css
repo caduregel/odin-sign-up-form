@@ -1,0 +1,42 @@
+
+
+*{
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#side-logo {
+    background-image: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: 110%;
+    width: 30vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#side-logo h1 {
+    
+    display: flex;
+    align-items: center;
+    font-family: odinFont;
+    opacity: 100%;
+    font-size: 70px;
+}
+
+#side-logo div {
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.67);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50%;
+}
+

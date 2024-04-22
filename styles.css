@@ -10,6 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* The sidebar logo */
 #side-logo {
     background-image: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: 110%;
@@ -40,3 +41,28 @@ body {
     margin-bottom: 50%;
 }
 
+/* Main content */
+
+#sign-up-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* Paragraph */
+
+p {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 650;
+}
+
+#paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 50px;
+    margin-right: 30vw;
+}
